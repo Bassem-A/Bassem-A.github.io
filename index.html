@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css"> 
+    <script src="myscript.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
 </head>
-<body>
+<body id="mainbody">
+    <div id="color_picker" class="b">
+        <button id="theme_button" type="button" onclick="Theme_Change()">Change Theme</button>
+    </div>
+    
     <h1>BASSEM ALSHEHRI</h1>
     <h3>Contacts:</h3>
     <ul>
         <li>Email:Bassem.Alshehri@protonmail.com</li>
         <li>Github:github.com/Bassem-A</li>
         <li>Fivrr:fiverr.com/devi009/</li>
+    </ul>
+    <button  id="PJbutton" type="button" onclick="SHprojects()">PROJECTS</button>
+    <ul hidden id="pjs">
+        <li>Python Scraper</li>
+        <li>Python Image Recognation</li>
     </ul>
 </body>
 </html>
