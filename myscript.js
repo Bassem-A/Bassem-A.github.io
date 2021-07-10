@@ -4,8 +4,23 @@
 function SignInG()
 {
      const auth = firebase.auth();
+     const signBTN = document.getElementById("SignIn");
      const provider = new firebase.auth.GoogleAuthProvider();
      auth.signInWithRedirect(provider);
+
+     auth.onAuthStateChanged(user=>{
+
+        if(user)
+        {
+            signBTN.innerHTML = "Sign-out";
+        }
+        else
+        {
+            signBTN.innerHTML = "Sign-in";
+        }
+
+
+     })
     
 }
 
