@@ -2,13 +2,44 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css"> 
-    <script src="myscript.js"></script>
+    <script src="myscript.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyB0rENg9JV1-iOTwRHWONdYI-DsrlAwLGg",
+        authDomain: "basic-chat-15a2f.firebaseapp.com",
+        projectId: "basic-chat-15a2f",
+        storageBucket: "basic-chat-15a2f.appspot.com",
+        messagingSenderId: "20133538012",
+        appId: "1:20133538012:web:d1c3aebaf64dbc1084ec19",
+        measurementId: "G-E4YRVC9W1J"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+
 </head>
 <body id="mainbody">
+    <div id="SignInDiv">
+        <button type="button" onclick="SignInG()" id="SignIn">Sign In</button>
+    </div>
     <div id="color_picker" class="b">
         <button id="theme_button" type="button" onclick="Theme_Change()">Change Theme</button>
     </div>
