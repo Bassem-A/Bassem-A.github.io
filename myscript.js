@@ -6,7 +6,7 @@ function SignInG()
      const auth = firebase.auth();
      const signBTN = document.getElementById("SignIn");
      const provider = new firebase.auth.GoogleAuthProvider();
-     if(signBTN=="Sign-in")
+     if(signBTN.innerHTML=="Sign-in")
      {
         auth.signInWithPopup(provider);
      }
