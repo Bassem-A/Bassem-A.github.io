@@ -1,74 +1,76 @@
-
-
-#mainbody{
-    background-color: #DB2349;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#FFC752;
+#mainbody {
+  background-color: #db2349;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ffc752;
 }
 
-h1{
-    font-size: 100px;
+h1 {
+  font-size: 100px;
 }
 
-h3{
-    font-size: 75px;
+h3 {
+  font-size: 75px;
 }
 
-ul{
-    list-style-type:none;
-    font-size: 40px;
+ul {
+  list-style-type: none;
+  font-size: 40px;
 }
-li{
-    margin: 0 0 3px 0;
+li {
+  margin: 0 0 3px 0;
 }
-button
-{
-    background-color: #23272a;
+button {
+  background-color: #23272a;
 }
-#PJbutton{
-    
+#PJbutton {
   border: none;
-  color: #FFC752;
+  color: #ffc752;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 40px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-#SignIn{
-    
-    border: none;
-    color: #FFC752;
-    padding: 15px 32px;
-    text-align: none;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 40px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  #SignInDiv{
-      float: right;
-  }
-  #SignInDiv button{
-      font-size: 15px;
-  }
-  
+#SignIn {
+  border: none;
+  color: #ffc752;
+  padding: 15px 32px;
+  text-align: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#SignInDiv {
+  float: right;
+}
+#SignInDiv button {
+  font-size: 15px;
+}
 
-#color_picker{
-    float: left;
+#color_picker {
+  float: left;
 }
 
 #color_picker button {
-    background-color: #23272a;
-    
+  background-color: #23272a;
+
   border: none;
-  color: #FFC752;
+  color: #ffc752;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  text-decoration: none;
 }
